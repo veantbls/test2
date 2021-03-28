@@ -10,25 +10,6 @@ endc='\E[0m'
 enda='\033[0m'
 
 clear
-
-# Branding
-
-printf """$c$b
-      _____      _       _         _    _            _  
-     / ____|    | |     | |       | |  | |          | | 
-    | |     ___ | | __ _| |__     | |__| | __ _  ___| | _____ 
-    | |    / _ \| |/ _\` | '_ \    |  __  |/ _\` |/ __| |/ / __|
-    | |___| (_) | | (_| | |_) |   | |  | | (_| | (__|   <\__ \\
-     \_____\___/|_|\__,_|_.__/    |_|  |_|\__,_|\___|_|\_\___/ 
-    $r  By Pradyumna Krishna © 2020 $c Edited by https://fb.com/thuong.hai.581 (v5 fix terminal issue)
-      Github : https://github.com/PradyumnaKrishna/Colab-Hacks          
-$endc$enda""";
-
-
-
-# Used Two if else type statements, one is simple second is complex. So, don't get confused or fear by seeing complex if else statement '^^.
-
-# Creation of user
 printf "\n\nCreating user " >&2
 if sudo useradd -m user &> /dev/null
 then
